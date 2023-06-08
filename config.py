@@ -1,1 +1,1 @@
-api_key = "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"
+api_key ="SUA_CHAVE"

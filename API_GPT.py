@@ -7,7 +7,7 @@ from flask_cors import CORS
 from config import api_key
 
 # Carrega os dados do arquivo JSON
-with open('eventos_teste.json', encoding="utf-8") as file:
+with open('eventos.json', encoding="utf-8") as file:
     eventos_data = json.loads(file.read())
 
 # Configuração da API da OpenAI
